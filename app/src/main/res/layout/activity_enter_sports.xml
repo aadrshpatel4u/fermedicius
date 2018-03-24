@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fermedicius.EnterSports"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Choose Sports "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Swimming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Swimming "
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Running"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Running "
+        app:layout_constraintStart_toStartOf="@+id/checkBox_Swimming"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Swimming" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Football "
+        app:layout_constraintStart_toStartOf="@+id/checkBox_Running"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Running" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Rugby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Rugby"
+        app:layout_constraintStart_toStartOf="@+id/checkBox_Football"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Football" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Dance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=" Dance "
+        app:layout_constraintStart_toStartOf="@+id/checkBox_Rugby"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Rugby" />
+
+    <Button
+        android:id="@+id/button_next6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+</android.support.constraint.ConstraintLayout>
